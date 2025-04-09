@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: white;
+            font-family: Arial, sans-serif; /* 添加字體樣式 */
+        }
+        .weather-container {
+            margin: 10px 0;
+            font-weight: bold;
+            font-size: 24px;
+            text-align: center; /* 中心對齊 */
+        }
+        .weather-box {
+            width: 400px;
+            padding: 10px;
+            border: 1px dashed blue;
+            color: grey;
+            margin: 0 auto; /* 使盒子居中 */
+            background-color: rgba(240, 248, 255, 0.8); /* 添加半透明背景 */
+            border-radius: 8px; /* 添加圆角效果 */
+        }
+        img {
+            margin: 25px 75px;
+            transition: transform 0.3s; /* 添加過渡效果 */
+        }
+        img:hover {
+            transform: scale(1.05); /* 悬停时放大效果 */
+        }
+        .border-dotted {
+            border: dotted;
+        }
+        .border-double {
+            border: double;
+        }
+        .border-solid-medium {
+            border-style: solid;
+            border-width: medium;
+        }
+        .border-solid-thick {
+            border-style: solid;
+            border-width: thick;
+        }
+    </style>
+</head>
+<body>
+    <div class="weather-container">
+        <div class="weather-box">
+            今天的<span style="color: red;">天氣</span>真是不錯
+        </div>
+    </div>
+
+    <img src="旋轉貓.gif" class="border-dotted">
+    <img src="旋轉貓.gif" class="border-double">
+    <img src="旋轉貓.gif" class="border-solid-medium">
+    <img src="旋轉貓.gif" class="border-solid-thick">
+</body>
+</html>
